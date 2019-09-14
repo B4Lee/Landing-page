@@ -1,0 +1,94 @@
+body {
+    font-family: 'Lato';
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: 'Montserrat';
+    font-weight: 800 !important;
+  }
+  
+  /* Navbar */
+  .navbar-custom {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+  
+  .navbar-custom .navbar-brand {
+    text-transform: uppercase;
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+    font-weight: 700;
+  }
+  
+  .navbar-custom .navbar-nav .nav-item .nav-link {
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+  }
+
+/* Header */
+
+.jumbotron{
+    background-image: url('../img/header-bg.png');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 0 -50px;
+
+}
+.text-center{
+    padding-top: calc(10rem + 55px);
+    padding-bottom: 305px;
+}
+
+.masthead-heading {
+    font-size: 4rem;
+    color: hotpink;
+  }
+  
+.masthead-subheading {
+    font-size: 2rem;
+    color: hotpink;
+  }
+
+  .btn-xl {
+    text-transform: uppercase;
+    padding: 1.5rem 3rem;
+    font-size: 0.9rem;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+  }
+  
+  .rounded-pill {
+    border-radius: 5rem;
+  }
+
+  .bg-primary {
+    background-color: #ee0979 !important;
+  }
+  
+  .btn-primary {
+    background-color: hotpink;
+    border-color: white;
+  }
+
+.btn-primary:active, .btn-primary:focus, .btn-primary:hover {
+    background-color: #bd0760 !important;
+    border-color: #bd0760 !important;
+  }
+  
+  .btn-primary:focus {
+    -webkit-box-shadow: 0 0 0 0.2rem rgba(238, 9, 121, 0.5);
+    box-shadow: 0 0 0
+
+  /* Section */
+
+  .display-4{
+      color: hotpink;
+  }
