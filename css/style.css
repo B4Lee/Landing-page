@@ -40,8 +40,8 @@ body {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: scroll;
   height: 100%;
-
 }
 .text-center{
     padding-top: calc(10rem + 55px);
