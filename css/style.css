@@ -35,27 +35,56 @@ body {
 
 /* Header */
 
-.jumbotron{
+.masthead {
+  display: flex;
+  background-image: url(/img/906578.png);
+	justify-content: center;
+	align-items: center;
+  height: 100vh;
+  min-height: 500px;
+	position: relative;
+	overflow: hidden;
+	background-attachment: absolute;
+
+}
+.back-overlay {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.75) 100%);
+	z-index: 5;
+}
+
+.masthead-header{
+  color: #fff;
+  background-color: #fff;
+}
+
+/* .jumbotron{
   background-image: url('../img/header-bg.png');
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: scroll;
   height: 100%;
-}
+} */
 .text-center{
     padding-top: calc(10rem + 55px);
     padding-bottom: 305px;
 }
 
 .masthead-heading {
-    font-size: 4rem;
-    color: hotpink;
+  color: #FFFFFF;
+  text-shadow: 0 1px 0 #CCCCCC, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
+  font-size: 97px;
   }
   
 .masthead-subheading {
-    font-size: 2rem;
-    color: hotpink;
+  color: hotpink;
+  text-shadow: 0 1px 0 #FFFFFF, 0 2px 0 #fff, 0 3px 0 #fff, 0 4px 0 #b9b9b9, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
+  font-size: 50px;
   }
 
   .btn-xl {
@@ -88,3 +117,14 @@ body {
     -webkit-box-shadow: 0 0 0 0.2rem rgba(238, 9, 121, 0.5);
     box-shadow: 0 0 0
   }
+
+
+  .bg-overlay {
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("../img/644490.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:  center;
+    color: #fff;
+    padding-top: 50px;
+    height: 75%;
+}
