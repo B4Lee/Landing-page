@@ -42,10 +42,10 @@ body {
 	align-items: center;
   height: 100vh;
   min-height: 500px;
-	position: relative;
 	overflow: hidden;
 	background-attachment: absolute;
-
+  background-position: center center;
+  
 }
 .back-overlay {
 	position: absolute;
@@ -61,6 +61,7 @@ body {
   color: #fff;
   background-color: #fff;
 }
+
 
 /* .jumbotron{
   background-image: url('../img/header-bg.png');
