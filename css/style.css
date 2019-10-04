@@ -37,7 +37,7 @@ body {
 
 .masthead {
   display: flex;
-  background-image: url(/img/906578.png);
+  background-image: url("../img/906578.png");
 	justify-content: center;
 	align-items: center;
   height: 100vh;
