@@ -62,15 +62,6 @@ body {
   background-color: #fff;
 }
 
-
-/* .jumbotron{
-  background-image: url('../img/header-bg.png');
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: scroll;
-  height: 100%;
-} */
 .text-center{
     padding-top: calc(10rem + 55px);
     padding-bottom: 305px;
@@ -88,38 +79,6 @@ body {
   font-size: 50px;
   }
 
-  .btn-xl {
-    text-transform: uppercase;
-    padding: 1.5rem 3rem;
-    font-size: 0.9rem;
-    font-weight: 700;
-    letter-spacing: 0.1rem;
-  }
-  
-  .rounded-pill {
-    border-radius: 5rem;
-  }
-
-  .bg-primary {
-    background-color: #ee0979 !important;
-  }
-  
-  .btn-primary {
-    background-color: hotpink;
-    border-color: white;
-  }
-
-.btn-primary:active, .btn-primary:focus, .btn-primary:hover {
-    background-color: #bd0760 !important;
-    border-color: #bd0760 !important;
-  }
-  
-  .btn-primary:focus {
-    -webkit-box-shadow: 0 0 0 0.2rem rgba(238, 9, 121, 0.5);
-    box-shadow: 0 0 0
-  }
-
-
   .bg-overlay {
     background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("../img/644490.png");
     background-repeat: no-repeat;
@@ -128,4 +87,8 @@ body {
     color: #fff;
     padding-top: 50px;
     height: 75%;
+}
+
+.img-fluid{
+  width: 500px;
 }
